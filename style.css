@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body .btn:hover {
+    background-color: #111 !important;
+    color: white !important;
+    transition: .7s;
+}
+
+img {
+    width: 100%;
+}
+
+button.navbar-toggler {
+    box-shadow: none !important;
+}
+
+/* ============================header=============================== */
+header {
+    line-height: 2.2;
+    background-color: #fff9f4;
+
+}
+
+.navbar-brand img {
+    width: 240px;
+    height: auto;
+}
+
+a.nav-link {
+    font-size: 1rem;
+    font-weight: 430;
+    color: #111;
+    transition: .3s;
+    text-align: center;
+    margin-left: 5px;
+}
+
+a.nav-link:hover {
+    color: #fa804c;
+    transition: .3s;
+    transform: translateY(-1px);
+}
+
+/* =========================banner========================== */
+.banner {
+    padding: 5rem 0;
+}
+
+.banner img {
+    width: 500px;
+    height: auto;
+}
+
+.bContent {
+    padding-top: 5rem;
+}
+
+.bContent h1 {
+    color: #fa804c;
+    font-size: 3.2rem;
+}
+
+.bContent span {
+    color: #363958;
+}
+
+.btn {
+    background: #3543bc;
+    color: white;
+    padding: 11px 34px;
+    transition: .7s;
+}
+
+/* =======================media query========================= */
+@media only screen and (max-width:768px) {
+    .banner {
+        padding-top: 0;
+    }
+
+    .banner img {
+        width: 380px;
+        height: auto;
+    }
+
+    .banner {
+        text-align: center;
+    }
+
+    .shows h2 {
+        text-align: center;
+    }
+}
+
+/* =======================media query========================= */
+
+/* ==================shoes ============================= */
+.shows {
+    padding: 4rem 0;
+}
+
+.shows h2 {
+    color: #363958;
+    font-weight: 550;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    transition: .42s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    transition: .42s ease;
+}
+
+h5.card-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+p.card-text {
+    padding: 4px 0;
+}
+
+.card span {
+    font-size: 1.8rem;
+    color: #fa804c;
+    font-weight: 520;
+}
+
+.down {
+    justify-content: space-between;
+}
+
+img.card-img-top {
+    padding: 17px 18px;
+}
+
+/* ==================shoe end ============================= */
+
+
+/* ==================service start ============================= */
+.service {
+    padding: 7rem 0;
+}
+
+.sItems {
+    padding: 10px 29px;
+    border-radius: 22px;
+    margin-top: 25px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+.sContent {
+    margin-left: 39px;
+}
+
+.sContent h4 {
+    font-size: 1.3rem;
+    margin-bottom: 13px;
+    color: #000f43;
+}
+
+.sContent p {
+    color: #5b3526;
+}
+
+.sItems img {
+    width: 78px;
+    height: 82px;
+}
+
+/* ==================service end ============================= */
+
+/* ==================footer ============================= */
+.footer{
+    background-color: #fff9f4;
+}
+.footer h4{ 
+    color: #3543bc;
+}
+.footer-content{
+    padding: 20px 0;
+}
